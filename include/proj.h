@@ -1,12 +1,15 @@
 #ifndef PROJ_H
 #define PROJ_H
 #include <iostream>
+#include <iomanip>
 #include <string>
 #include <vector>
 #include <ctime>
 #include "task.h"
 #include "menu.h"
 using namespace std;
+
+struct Task;
 
 struct Project
 {

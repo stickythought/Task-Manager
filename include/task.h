@@ -4,14 +4,14 @@
 #include <string>
 #include <vector>
 #include <ctime>
-#include "proj.h"
-#include "menu.h"
+#include <iomanip>
 using namespace std;
 
 struct Project;
 
-struct Task 
+class Task 
 {
+public:
     string title;
     bool complete, priority;
     string description;

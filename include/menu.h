@@ -1,12 +1,14 @@
 #ifndef MENU_H
 #define MENU_H
 #include <iostream>
+#include <iomanip>
 #include <string>
 #include <vector>
 #include <ctime>
-#include "proj.h"
-#include "task.h"
 using namespace std;
+
+struct Task;
+struct Project;
 
 struct Date {
     int year, month, day;
